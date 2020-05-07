@@ -72,9 +72,9 @@ class Home extends Component {
       }
     });
     window.addEventListener("resize", (b) => {
-      if (b.target.innerWidth < 376) {
+      if (b.target.innerWidth < 500) {
         this.setState({ width: 250 });
-      } else if (b.target.innerWidth > 376) {
+      } else if (b.target.innerWidth > 500) {
         this.setState({ width: 700 });
       }
     });
